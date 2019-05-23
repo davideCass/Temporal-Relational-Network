@@ -21,4 +21,4 @@ Per il test su un singolo video:
 
 python 'path_to_test_video/test_video.py' --arch BNInception --dataset sport --weight 'path_to_model/model/TRN_sport_RGB_BNInception_TRNmultiscale_segment8_best.pth.tar' --frame_folder 'path_to_dataset/dataset/sport/frame-video/298'.
 
-In alternativa è possibile aprire il file dataset-train.ipynb (per il training) e dataset-test.ipynb (per il testing) e eseguire i comandi presenti nei file.
+In alternativa è possibile scaricare e aprire il file dataset-train.ipynb (per il training) e dataset-test.ipynb (per il testing) e eseguire i comandi presenti nei file.
