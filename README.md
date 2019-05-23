@@ -3,6 +3,7 @@ Progetto di Machine Learning e Sistemi Intelligenti per Internet, incentrato sul
 
 Prima di avviare il training occorre effettuare alcune operazioni sul dataset: 
 avviare extract_frames.py dando come destinazione la cartella in cui risiedono i video, che hanno nomi sequenziali del tipo 1.mp4; extract_frames crea una cartella per ogni video e estrae i frame e li mette nelle cartelle create.
+
 Avviare process_dataset.py che prende in input i file csv di train, validation, test e le cartelle dei frame e crea in output i file txt relativi, con l’indice del video, il numero dei frame e l’indice della categoria.
 Fatto ciò è possibile avviare il training (sostituendo path_to_main con il path in cui risiede main.py) con il comando: 
 
